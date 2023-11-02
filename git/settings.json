@@ -1,0 +1,19 @@
+{
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "GeistMono-Medium",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.lineHeight": 1.2,
+    "editor.formatOnSave": true,
+    "editor.letterSpacing": 0.4,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "files.autoSave": "afterDelay",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+
+    "security.workspace.trust.untrustedFiles": "open"
+}

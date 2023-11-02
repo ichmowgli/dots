@@ -1,0 +1,11 @@
+[init]
+	defaultBranch = main
+[user]
+	email = mariia.kucheieva@gmail.com
+	name = "Mara K."
+[alias]
+	d = "diff"
+  	co = "checkout"
+  	cm = "commit"
+  	st = "status"
+  	a = "add"
