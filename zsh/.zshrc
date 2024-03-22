@@ -36,19 +36,33 @@ alias dc="docker-compose"
 alias rr="rm -rf"
 
 # Git
-alias nr="npm run"
-alias ni="npm install"
-alias nid="npm install -D"
-alias nrs="npm run start"
-alias nrd="npm run dev"
-alias nrb="npm run build"
-alias nrt="npm run test"
+alias g="git"
+# alias nr="npm run"
+# alias ni="npm install"
+# alias nid="npm install -D"
+# alias f="npx prettier --write"
+# alias nrs="npm run start"
+# alias nrd="npm run dev"
+# alias nrb="npm run build"
+# alias nrt="npm run test"
+alias br="bun run"
+alias bi="bun install"
+alias bid="bun install -D"
+alias brf="bunx prettier --write ."
+alias brs="bun run start"
+alias brd="bun run dev"
+alias brb="bun run build"
+alias brt="bun run test"
+
+alias cleanup="rm -rf node_modules .next"
+
 alias pn="pnpm"
 alias pni="pnpm install"
 
-# Mac setup for pomodoro
-alias work="echo 'we are working 🛰️' | lolcat && timer 60m" 
-alias rest="echo 'happy break time! 🛟' | lolcat && timer 10m" 
+
+alias llama="ollama run llama2"
+
+alias vim="nvim"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
