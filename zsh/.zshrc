@@ -28,7 +28,7 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Aliases
+
 alias zshconfig="code ~/.zshrc"
 alias c="clear"
 alias d="docker"
@@ -54,11 +54,17 @@ alias brd="bun run dev"
 alias brb="bun run build"
 alias brt="bun run test"
 
-alias cleanup="rm -rf node_modules .next"
+alias fuck="rm -rf node_modules .next"
 
 alias pn="pnpm"
 alias pni="pnpm install"
 
+# lsd
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
 
 alias llama="ollama run llama2"
 
